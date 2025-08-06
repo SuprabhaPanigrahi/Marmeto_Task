@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bundle Builder</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="bundle-builder">
+        <div class="products-grid">
+            <p class="subtitle"><b>Buy 3 and Save 30%</b></p>
+            <div class="products-container">
+                <!-- Product cards will be inserted here by JavaScript -->
+            </div>
+        </div>
+        
+        <div class="bundle-sidebar">
+            <div class="sidebar-content">
+                <div class="progress-container">
+                    <div class="progress-text"><b>Create a Bundle</b></div>
+                    <p>Add at <b>least 3</b> products and <b>Save 30%</b></p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                    <div class="progress-count">0/3 products added</div>
+                </div>
+                
+                <div class="selected-products">
+                    <div class="products-list">
+                        <!-- Selected products will appear here -->
+                        <div class="empty-state">No products added yet</div>
+                    </div>
+                </div>
+                
+                <div class="discount-container">
+                    <div class="discount-line">
+                        <span>Discount (30%)</span>
+                        <span class="discount-amount">-£0.00</span>
+                    </div>
+                </div>
+                
+                <div class="subtotal-container">
+                    <div class="subtotal-line">
+                        <span>Subtotal</span>
+                        <span class="subtotal-amount">£0.00</span>
+                    </div>
+                </div>
+                
+                <button class="add-to-cart" disabled>Add 3 Items to Proceed</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
