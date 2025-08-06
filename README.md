@@ -104,11 +104,13 @@ Easy Modifications:
 3. Change colors: Update CSS variables in styles.css
 
 css
+
 :root {
   --primary-color: #2E294E;
   --secondary-color: #9055A2;
   --accent-color: #D499B9;
 }
+
 Advanced Customization
 
 1. Add more products: Extend the products array and adjust grid CSS
