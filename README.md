@@ -1,16 +1,16 @@
 Overview
 
-1.An interactive bundle builder interface that allows users to:
+An interactive bundle builder interface that allows users to:
 
-2. Select products to create custom bundles
+1. Select products to create custom bundles
 
-3. Track bundle progress with visual indicators
+2. Track bundle progress with visual indicators
 
-4. View dynamic discount calculations
+3. View dynamic discount calculations
 
-5. Manage quantities of selected items
+4. Manage quantities of selected items
 
-6. Responsive design for all device sizes
+5. Responsive design for all device sizes
 
 ---
 
@@ -111,11 +111,11 @@ css
 }
 Advanced Customization
 
-Add more products: Extend the products array and adjust grid CSS
+1. Add more products: Extend the products array and adjust grid CSS
 
-Change bundle requirements: Update the "3" in progress calculations
+2. Change bundle requirements: Update the "3" in progress calculations
 
-Add animations: Enhance with CSS transitions
+3. Add animations: Enhance with CSS transitions
 
 
 Created by: Suprabha Panigrahi
