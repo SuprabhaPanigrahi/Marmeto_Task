@@ -1,4 +1,5 @@
 Overview
+
 An interactive bundle builder interface that allows users to:
 
 Select products to create custom bundles
@@ -14,7 +15,9 @@ Responsive design for all device sizes
 ---
 
 Features
-Core Functionality
+
+Core Functionality:
+
 🛍️ Product grid with 6 items (3 per row on desktop)
 
 ➕ "Add to Bundle" toggle buttons
@@ -26,6 +29,7 @@ Core Functionality
 🛒 "Add to Cart" button with state management
 
 Enhanced Features
+
 🔢 Quantity controls (+/-) for each product
 
 ❌ Remove items from bundle
@@ -39,7 +43,9 @@ Enhanced Features
 ---
 
 Technical Details
-Technologies Used
+
+Technologies Used:
+
 Frontend: HTML5, CSS3, JavaScript (ES6+)
 
 No external dependencies (pure vanilla JS)
@@ -65,11 +71,14 @@ bundle-builder/
 --- 
 
 Setup Instructions
+
 Clone the repository:
 
 bash
-```git clone https://github.com/yourusername/bundle-builder.git
+```
+git clone https://github.com/yourusername/bundle-builder.git
 cd bundle-builder
+
 ```
 
 Set up product images:
@@ -85,7 +94,9 @@ Option 1: Open index.html directly in your browser
 Option 2: Use VS Code with Live Server extension
 
 Customization
-Easy Modifications
+
+Easy Modifications:
+
 Change products: Edit the products array in script.js
 
 Adjust discount: Modify the 0.3 value in discount calculation
@@ -99,6 +110,7 @@ css
   --accent-color: #D499B9;
 }
 Advanced Customization
+
 Add more products: Extend the products array and adjust grid CSS
 
 Change bundle requirements: Update the "3" in progress calculations
@@ -107,5 +119,5 @@ Add animations: Enhance with CSS transitions
 
 
 Created by: Suprabha Panigrahi
-Last Updated: ${new Date().toLocaleDateString()}
+Last Updated: 06-Aug-2025
 
