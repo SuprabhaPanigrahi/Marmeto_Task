@@ -1,16 +1,16 @@
 Overview
 
-An interactive bundle builder interface that allows users to:
+1.An interactive bundle builder interface that allows users to:
 
-Select products to create custom bundles
+2. Select products to create custom bundles
 
-Track bundle progress with visual indicators
+3. Track bundle progress with visual indicators
 
-View dynamic discount calculations
+4. View dynamic discount calculations
 
-Manage quantities of selected items
+5. Manage quantities of selected items
 
-Responsive design for all device sizes
+6. Responsive design for all device sizes
 
 ---
 
@@ -46,13 +46,13 @@ Technical Details
 
 Technologies Used:
 
-Frontend: HTML5, CSS3, JavaScript (ES6+)
+1. Frontend: HTML5, CSS3, JavaScript (ES6+)
 
-No external dependencies (pure vanilla JS)
+2. No external dependencies (pure vanilla JS)
 
-CSS Features: Flexbox, Grid, CSS Variables
+3. CSS Features: Flexbox, Grid, CSS Variables
 
-Browser Compatibility: Chrome, Firefox, Safari, Edge
+4. Browser Compatibility: Chrome, Firefox, Safari, Edge
 
 ---  
 
@@ -83,9 +83,9 @@ cd bundle-builder
 
 Set up product images:
 
-Place your product images in assets/products/
+1. Place your product images in assets/products/
 
-Name them product1.jpg through product6.jpg
+2. Name them product1.jpg through product6.jpg
 
 Run the project:
 
@@ -97,11 +97,11 @@ Customization
 
 Easy Modifications:
 
-Change products: Edit the products array in script.js
+1. Change products: Edit the products array in script.js
 
-Adjust discount: Modify the 0.3 value in discount calculation
+2. Adjust discount: Modify the 0.3 value in discount calculation
 
-Change colors: Update CSS variables in styles.css
+3. Change colors: Update CSS variables in styles.css
 
 css
 :root {
@@ -119,5 +119,6 @@ Add animations: Enhance with CSS transitions
 
 
 Created by: Suprabha Panigrahi
+
 Last Updated: 06-Aug-2025
 
